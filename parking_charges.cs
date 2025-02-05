@@ -28,3 +28,35 @@ class ParkingSystem
                 vipCount++;
                 Console.WriteLine("VIP car registered, no fees");
             }
+            else if (choice == 2)
+            {
+                studentCount++;
+                totalRevenue += 10;
+                Console.WriteLine("Student car registered, pay 10 rupees");
+            }
+            else if (choice == 3)
+            {
+                visitorCount++;
+                totalRevenue += 20;
+                Console.WriteLine("Visitor car registered, pay 20 rupees");
+            }
+            else if (choice == 4)
+            {
+                Console.WriteLine("VIP cars: "+vipCount);
+                Console.WriteLine("Student cars: " +studentCount);
+                Console.WriteLine("Visitor cars: " +visitorCount);
+                Console.WriteLine("Total revenue: "+totalRevenue);
+            }
+            else if (choice == 5)
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Invalid choice.");
+            }
+        }
+    }
+}
+
+
