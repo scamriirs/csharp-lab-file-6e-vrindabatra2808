@@ -1,4 +1,6 @@
 //private constructor
+
+//can we create an object of a class having private constructor. Show it with the help of program how can we access the fields & method of that class.
 using System;
 class Example {
     public static string name;
